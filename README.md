@@ -87,6 +87,21 @@ The filesystem has been enlarged upon.
 root@DE10-Standard:~# 
 ```
 
+## 1.3.3 Configuration réseau
+Branchez la carte VEEK sur le switch via un câble réseau
+
+— À l’aide de la commande ifconfig, Nous allons vérifier que la carte dispose d’une adresse IP,
+
+— Éditer le fichier /etc/network/interfaces de la manière suivante :
+
+source-directory /etc/network/interfaces.d
+
+auto eth0
+
+iface eth0 inet dhcp
+
+allow-hotplug eth0
+
 
 ### Config  IP
 
