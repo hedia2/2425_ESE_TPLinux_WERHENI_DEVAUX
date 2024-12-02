@@ -38,6 +38,9 @@ Sous Linux, nous utiliserons Minicom pour nous connecter via le port série.
 
 <img width="1085" alt="Screenshot 2024-12-02 at 14 50 01" src="https://github.com/user-attachments/assets/fddfda87-db4d-4af2-b02c-bfa3fc81a8f8">
 
+Minicom affiche la version utilisée (2.9), le port série détecté (/dev/tty.usbserial-AK050GOR), et les paramètres de communication configurés (115200 baud, 8N1). Le système cible fonctionne sous Ubuntu 16.04.2 LTS et demande un nom d'utilisateur pour se connecter, ce qui indique que l'accès au terminal est protégé par des identifiants. Les paramètres affichés confirment que le terminal est configuré correctement, mais il reste en mode hors ligne jusqu'à ce que la connexion soit établie avec succès en fournissant les identifiants appropriés. Ce processus est typique pour configurer ou déboguer des systèmes embarqués.
+
+
 ## Une fois connecté au SoC :
 Pour vous identifier :
 
