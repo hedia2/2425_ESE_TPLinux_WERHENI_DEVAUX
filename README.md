@@ -147,6 +147,40 @@ round-trip min/avg/max/stddev = 3.054/9.495/23.006/6.378 ms
 ![image](https://github.com/user-attachments/assets/079903b6-c70c-40a5-b93d-bba9701c028a)
 
 
+```
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) {
+    FILE *fp;
+    char path[100];
+    
+    if (argc != 3) {
+        printf("Usage: %s <numero_led> <etat>\n", argv[0]);
+        return 1;
+    }
+    
+    snprintf(path, sizeof(path), "/sys/class/leds/fpga_led%s/brightness", argv[1]);
+    
+    fp = fopen(path, "w");
+    if (fp == NULL) {
+        printf("Erreur ouverture fichier\n");
+        return 1;
+    }
+    
+    fprintf(fp, "%s", argv[2]);
+    fclose(fp);
+    
+    return 0;
+}
+```
+
+On test:
+```
+root@DE10-Standard:~# ./ledControl.o 1 1
+```
+La LED s'allume !
+
 
 
 
