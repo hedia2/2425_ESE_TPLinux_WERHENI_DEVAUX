@@ -65,9 +65,12 @@ tmpfs           376M     0  376M   0% /sys/fs/cgroup
 tmpfs            76M     0   76M   0% /run/user/0
 root@DE10-Standard:~# 
 ```
-
 Cette commande est utile pour surveiller l'espace disque et l'utilisation des systèmes de fichiers montés. Elle montre que le système a encore beaucoup d'espace disponible, notamment sur la partition principale / avec seulement 10% d’utilisation. Les systèmes de fichiers temporaires (comme tmpfs) sont presque vides, indiquant une faible utilisation des ressources.
 
+./expand_rootfs.sh
+
+
+Des scripts sont fournis pour augmenter la taille du système de fichiers et profiter de l’ensemble de la carte SD :
 
 
 ```
