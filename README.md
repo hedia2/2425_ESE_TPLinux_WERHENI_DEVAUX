@@ -47,7 +47,8 @@ Pour vous identifier :
 
 <img width="1085" alt="Screenshot 2024-12-02 at 14 52 16" src="https://github.com/user-attachments/assets/b90b9d05-e0f6-40b1-8cd3-c810a2806ea8">
 
-Loggez-vous à nouveau. L’image copiée précédemment n’occupe pas la totalité de la carte SD.
+Loggez-vous à nouveau. L’image copiée précédemment n’occupe pas la totalité de la carte SD.et la taille occupé par l'utilisateur egale à 1.3G
+
 
 ```
 root@DE10-Standard:~# df -h
@@ -62,7 +63,10 @@ tmpfs            76M     0   76M   0% /run/user/0
 root@DE10-Standard:~# 
 ```
 
-Après reboot:
+Cette commande est utile pour surveiller l'espace disque et l'utilisation des systèmes de fichiers montés. Elle montre que le système a encore beaucoup d'espace disponible, notamment sur la partition principale / avec seulement 10% d’utilisation. Les systèmes de fichiers temporaires (comme tmpfs) sont presque vides, indiquant une faible utilisation des ressources.
+
+
+
 ```
 root@DE10-Standard:~# ./resize2fs_once
 Starting resize2fs_once
