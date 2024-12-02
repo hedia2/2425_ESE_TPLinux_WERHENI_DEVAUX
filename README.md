@@ -33,3 +33,14 @@ tmpfs           376M     0  376M   0% /sys/fs/cgroup
 tmpfs            76M     0   76M   0% /run/user/0
 root@DE10-Standard:~# 
 ```
+
+Après reboot:
+```
+root@DE10-Standard:~# ./resize2fs_once
+Starting resize2fs_once
+resize2fs 1.42.13 (17-May-2015)
+The filesystem is already 3656192 (4k) blocks long.  Nothing to do!
+
+The filesystem has been enlarged upon.
+root@DE10-Standard:~# 
+```
