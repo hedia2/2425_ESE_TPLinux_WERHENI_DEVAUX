@@ -10,3 +10,4 @@ Avant de commencer, nous procéderons au flashage de la carte SD en utilisant l�
 Ensuite, nous cliquerons sur 'Lire'.
  
 ![image](https://github.com/user-attachments/assets/7172c83d-5ec1-431e-be1f-d4309a79f1e2)
+![Uploading Screenshot 2024-12-02 at 14.50.01.png…]()
