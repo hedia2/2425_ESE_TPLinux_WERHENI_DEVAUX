@@ -111,6 +111,7 @@ la commande ifconfig exécutée dans un terminal Linux. Elle affiche les informa
 ifconfig
 eth0: inet addr:192.168.0.254  Bcast:192.168.0.255  Mask:255.255.255.0
 ```
+Nous allons Rebooter une nouvelle fois, et là normalement vous allons avoir une adresse IP correcte.
 
 on test avec un ping (depuis le terminal hors Minicom)
 ```
