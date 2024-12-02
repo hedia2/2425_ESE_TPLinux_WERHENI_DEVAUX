@@ -71,6 +71,7 @@ Cette commande est utile pour surveiller l'espace disque et l'utilisation des sy
 
 ## 3. ./expand_rootfs.sh
 
+est utilisé pour maximiser l'utilisation de l'espace disque disponible en étendant la partition racine et en redimensionnant le système de fichiers, souvent après avoir installé une image système sur un périphérique de stockage.
 
 ## 4. ./resize2fs_once
 
