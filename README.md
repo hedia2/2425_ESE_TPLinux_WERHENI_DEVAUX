@@ -181,6 +181,13 @@ root@DE10-Standard:~# ./ledControl.o 1 1
 ```
 La LED s'allume !
 
+## un programme en C pour un chenillard
+
+![image](https://github.com/user-attachments/assets/57396499-0e08-45dc-9b78-4a1d9ebf95d5)
+
+
+
+
 
 
 
