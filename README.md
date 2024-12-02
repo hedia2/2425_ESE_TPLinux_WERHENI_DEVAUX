@@ -70,3 +70,31 @@ The filesystem is already 3656192 (4k) blocks long.  Nothing to do!
 The filesystem has been enlarged upon.
 root@DE10-Standard:~# 
 ```
+
+
+### Config  IP
+
+```
+ifconfig
+eth0: inet addr:192.168.0.254  Bcast:192.168.0.255  Mask:255.255.255.0
+```
+
+on test avec un ping (depuis le terminal hors Minicom)
+```
+(base) hugodevaux@MacBook-Air-de-Hugo ~ % ping 192.168.0.254
+PING 192.168.0.254 (192.168.0.254): 56 data bytes
+64 bytes from 192.168.0.254: icmp_seq=0 ttl=64 time=23.006 ms
+64 bytes from 192.168.0.254: icmp_seq=1 ttl=64 time=7.516 ms
+64 bytes from 192.168.0.254: icmp_seq=2 ttl=64 time=3.054 ms
+64 bytes from 192.168.0.254: icmp_seq=3 ttl=64 time=6.847 ms
+64 bytes from 192.168.0.254: icmp_seq=4 ttl=64 time=10.026 ms
+64 bytes from 192.168.0.254: icmp_seq=5 ttl=64 time=6.523 ms
+^C
+
+--- 192.168.0.254 ping statistics ---
+6 packets transmitted, 6 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 3.054/9.495/23.006/6.378 ms
+(base) hugodevaux@MacBook-Air-de-Hugo ~ %
+```
+![[Screenshot 2024-12-02 at 15.07.48.png]]
+
