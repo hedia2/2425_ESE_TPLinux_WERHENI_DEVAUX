@@ -14,3 +14,16 @@ Ensuite, nous cliquerons sur 'Lire'.
 
 <img width="1085" alt="Screenshot 2024-12-02 at 14 50 01" src="https://github.com/user-attachments/assets/fddfda87-db4d-4af2-b02c-bfa3fc81a8f8">
 <img width="1085" alt="Screenshot 2024-12-02 at 14 52 16" src="https://github.com/user-attachments/assets/b90b9d05-e0f6-40b1-8cd3-c810a2806ea8">
+
+```
+root@DE10-Standard:~# df -h
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root        14G  1.3G   12G  10% /
+devtmpfs        375M     0  375M   0% /dev
+tmpfs           376M     0  376M   0% /dev/shm
+tmpfs           376M  9.8M  366M   3% /run
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           376M     0  376M   0% /sys/fs/cgroup
+tmpfs            76M     0   76M   0% /run/user/0
+root@DE10-Standard:~# 
+```
