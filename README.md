@@ -111,11 +111,9 @@ la commande ifconfig exécutée dans un terminal Linux. Elle affiche les informa
 ifconfig
 eth0: inet addr:192.168.0.254  Bcast:192.168.0.255  Mask:255.255.255.0
 ```
+## ping <adresse_ip>
+
 Nous allons Rebooter une nouvelle fois, et là normalement vous allons avoir une adresse IP correcte. Et on test avec un ping (depuis le terminal hors Minicom)
-
-## PermitEmptyPasswords yes 
-
-Vérifiez que dans le fichier /etc/ssh/sshd_config, la ligne suivante est présente :
 
 ```
 (base) hugodevaux@MacBook-Air-de-Hugo ~ % ping 192.168.0.254
@@ -133,6 +131,9 @@ PING 192.168.0.254 (192.168.0.254): 56 data bytes
 round-trip min/avg/max/stddev = 3.054/9.495/23.006/6.378 ms
 (base) hugodevaux@MacBook-Air-de-Hugo ~ %
 ```
+## PermitEmptyPasswords yes
+
+Vérifiez que dans le fichier /etc/ssh/sshd_config, la ligne suivante est présente :
 
 <img width="848" alt="Screenshot 2024-12-02 at 15 36 42" src="https://github.com/user-attachments/assets/dc74c4f6-5f6b-4841-822f-73b7497f2c05">
 
