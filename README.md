@@ -83,6 +83,8 @@ root@DE10-Standard:~#
 
 ### Config  IP
 
+la commande ifconfig exécutée dans un terminal Linux. Elle affiche les informations réseau de l'interface Ethernet eth0. L'adresse IP attribuée à cette interface est 192.168.0.254, qui est utilisée pour identifier le périphérique sur le réseau local. L'adresse de diffusion (broadcast) est 192.168.0.255, permettant de communiquer avec tous les appareils sur le même sous-réseau. Le masque de sous-réseau est 255.255.255.0, indiquant que le réseau est subdivisé en 256 adresses possibles (de 192.168.0.0 à 192.168.0.255).
+
 ```
 ifconfig
 eth0: inet addr:192.168.0.254  Bcast:192.168.0.255  Mask:255.255.255.0
