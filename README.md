@@ -157,9 +157,13 @@ Explorez un peu votre environnement, par exemple :
 
 — /proc/device-tree/sopc@0 à comparer avec le fichier iomem.
 
+## 1.4.2 Compilation croisée
 
+Pour cette partie, nous allons utiliser VirtualBox, accompagné d’une machine virtuelle Linux déjà configurée, qui vous permettra d’effectuer la compilation directement sur votre PC.
 
 ![image](https://github.com/user-attachments/assets/b123ead0-cad8-405d-8c48-b7ece5b906e2)
+
+VirtualBox est un logiciel de virtualisation gratuit qui permet d'exécuter plusieurs systèmes d'exploitation sur un même ordinateur. Il crée des machines virtuelles (VM) pour tester des configurations ou des applications sans affecter le système principal.
 
 ![image](https://github.com/user-attachments/assets/d195fa8a-b8b2-4877-981c-5fa663c25fe6)
 
