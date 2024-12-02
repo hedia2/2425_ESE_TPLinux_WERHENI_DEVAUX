@@ -133,10 +133,13 @@ round-trip min/avg/max/stddev = 3.054/9.495/23.006/6.378 ms
 ```
 ## PermitEmptyPasswords yes
 
-Vérifiez que dans le fichier /etc/ssh/sshd_config, la ligne suivante est présente :
+Nous allons vérifier le fichier de configuration SSH situé à /etc/ssh/sshd_config, en portant une attention particulière à la ligne suivante :
 
 <img width="848" alt="Screenshot 2024-12-02 at 15 36 42" src="https://github.com/user-attachments/assets/dc74c4f6-5f6b-4841-822f-73b7497f2c05">
 
+
+## 1.4 Découverte de la cible
+## 1.4.1 Exploration des dossiers /sys/class et /proc
 
 ![image](https://github.com/user-attachments/assets/b123ead0-cad8-405d-8c48-b7ece5b906e2)
 
