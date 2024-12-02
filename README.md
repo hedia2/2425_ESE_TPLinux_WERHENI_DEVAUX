@@ -1,7 +1,7 @@
 # 2425_ESE_TPLinux_WERHENI_DEVAUX
 
 ## TP Linux Embarqué
- ## 1-Préparation de la carte SD
+ ## 1.1 Préparation de la carte SD
  
 Avant de commencer, nous procéderons au flashage de la carte SD en utilisant l’image fournie par Terasic.
 
@@ -10,6 +10,12 @@ Avant de commencer, nous procéderons au flashage de la carte SD en utilisant l�
 Ensuite, nous cliquerons sur 'Lire'.
  
 ![image](https://github.com/user-attachments/assets/7172c83d-5ec1-431e-be1f-d4309a79f1e2)
+
+## 1.2 Démarrage
+
+Ensuite, nous insérerons la carte SD fraîchement programmée, connecterons la carte VEEK-MT2S, puis allumerons l’appareil à l’aide du bouton rouge. Les voyants se mettront à clignoter et un système Linux démarrera.
+
+![image](https://github.com/user-attachments/assets/add01c5b-57df-4c10-921c-18e1689eab46)
 
 
 <img width="1085" alt="Screenshot 2024-12-02 at 14 50 01" src="https://github.com/user-attachments/assets/fddfda87-db4d-4af2-b02c-bfa3fc81a8f8">
