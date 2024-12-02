@@ -113,5 +113,6 @@ PING 192.168.0.254 (192.168.0.254): 56 data bytes
 round-trip min/avg/max/stddev = 3.054/9.495/23.006/6.378 ms
 (base) hugodevaux@MacBook-Air-de-Hugo ~ %
 ```
-![[Screenshot 2024-12-02 at 15.07.48.png]]
+
+<img width="848" alt="Screenshot 2024-12-02 at 15 36 42" src="https://github.com/user-attachments/assets/dc74c4f6-5f6b-4841-822f-73b7497f2c05">
 
