@@ -192,6 +192,7 @@ Un certain nombre de drivers sont fournis. Comme tous les drivers sous Linux, il
 La commande echo "1" > /sys/class/leds/fpga_led1/brightness est utilisée dans un environnement Linux pour contrôler une LED connectée à un FPGA (Field Programmable Gate Array). 
 
 ## un programme en C pour un chenillard
+Le programme présenté est écrit en C et permet de contrôler une LED connectée à un FPGA en modifiant sa luminosité via le système de fichiers sysfs sous Linux. Il commence par définir le chemin d'accès à la LED et un délai en millisecondes. Dans la fonction main, il ouvre le fichier /sys/class/leds/fpga_led1/brightness en mode écriture, puis entre dans une boucle où il alterne entre allumer et éteindre la LED en écrivant "1" ou "0" dans ce fichier. Entre chaque changement d'état, il attend le délai spécifié pour contrôler la fréquence de clignotement de la LED.
 
 ![image](https://github.com/user-attachments/assets/57396499-0e08-45dc-9b78-4a1d9ebf95d5)
 
