@@ -179,6 +179,7 @@ Pour compiler sur la VM, Nous allons utilisez le cross-compilateur :
 
 ![image](https://github.com/user-attachments/assets/cc90d3d3-76ac-480e-84fb-f69ed0ff9d0f)
 
+Puisque la carte SoC est connectée au réseau, nous allons utiliser la commande suivante pour tester le transfert :
 
 <img width="726" alt="Screenshot 2024-12-02 at 16 55 55" src="https://github.com/user-attachments/assets/92bfe0b0-41fc-44c2-b879-cf8fc8c6f67d">
 
