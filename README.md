@@ -183,42 +183,13 @@ Puisque la carte SoC est connectée au réseau, nous allons utiliser la commande
 
 <img width="726" alt="Screenshot 2024-12-02 at 16 55 55" src="https://github.com/user-attachments/assets/92bfe0b0-41fc-44c2-b879-cf8fc8c6f67d">
 
+## 1.4.4 Accès au matériel
+
+Un certain nombre de drivers sont fournis. Comme tous les drivers sous Linux, ils sont accessible sous forme de fichiers. Par exemple pour allumer l’une des LED rouge de la carte, il suffit d’écrire un ’1’ dans le bon fichier
+
 ![image](https://github.com/user-attachments/assets/079903b6-c70c-40a5-b93d-bba9701c028a)
 
-
-```
-#include <stdio.h>
-#include <stdlib.h>
-
-int main(int argc, char *argv[]) {
-    FILE *fp;
-    char path[100];
-    
-    if (argc != 3) {
-        printf("Usage: %s <numero_led> <etat>\n", argv[0]);
-        return 1;
-    }
-    
-    snprintf(path, sizeof(path), "/sys/class/leds/fpga_led%s/brightness", argv[1]);
-    
-    fp = fopen(path, "w");
-    if (fp == NULL) {
-        printf("Erreur ouverture fichier\n");
-        return 1;
-    }
-    
-    fprintf(fp, "%s", argv[2]);
-    fclose(fp);
-    
-    return 0;
-}
-```
-
-On test:
-```
-root@DE10-Standard:~# ./ledControl.o 1 1
-```
-La LED s'allume !
+La commande echo "1" > /sys/class/leds/fpga_led1/brightness est utilisée dans un environnement Linux pour contrôler une LED connectée à un FPGA (Field Programmable Gate Array). 
 
 ## un programme en C pour un chenillard
 
