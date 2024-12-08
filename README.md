@@ -171,8 +171,11 @@ Dans cette section, nous allons démarrer la machine virtuelle (VM):
 
 ## 1.4.3 Hello world !
 
+Nous allons utiliser un simple programme en C qui affiche le message 'Hello World!', comme le montre l'image ci-dessous.
+
 ![image](https://github.com/user-attachments/assets/dd0ab4d6-8290-45db-8371-cf0b21499192)
 
+Pour compiler sur la VM, Nous allons utilisez le cross-compilateur :
 
 ![image](https://github.com/user-attachments/assets/cc90d3d3-76ac-480e-84fb-f69ed0ff9d0f)
 
