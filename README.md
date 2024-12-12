@@ -201,6 +201,31 @@ Le programme présenté est écrit en C et permet de contrôler une LED connect�
 
 
 
+## TP2
+
+## 2.1 Accès aux registres
+
+## 2.2 Compilation de module noyau sur la VM
+
+Pour compiler des modules noyau dans la VM, Nous allons besoin des paquets suivant :
+
+1. sudo apt install linux-headers-amd64
+   
+![image](https://github.com/user-attachments/assets/4df1b5e5-ec0c-4b2e-b96a-06b9fa5a72cd)
+
+2. sudo apt install bc
+
+![image](https://github.com/user-attachments/assets/96e95ddf-ba1d-463d-83ea-978d852817f4)
+
+![image](https://github.com/user-attachments/assets/fc85777a-1683-4c38-b8ec-3c58531fd692)
+
+chargez le et vérifiez que le module fonctionne bien (sudo dmesg).
+
+![image](https://github.com/user-attachments/assets/e9b3440b-77c3-40f6-9b9a-e3098cc2c4cb)
+
+
+
+
 
 
 
