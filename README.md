@@ -225,6 +225,11 @@ chargez le et vérifiez que le module fonctionne bien (sudo dmesg).
 
 
 
+![image](https://github.com/user-attachments/assets/d34bb478-156e-4d5a-a8f8-2fa023511045)
+
+
+
+
 
 
 
