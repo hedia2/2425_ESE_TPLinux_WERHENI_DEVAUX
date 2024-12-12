@@ -244,6 +244,9 @@ Une fois le module déchargé, utilisez à nouveau dmesg pour vérifier les mess
 
 ![image](https://github.com/user-attachments/assets/75a754f4-3854-40bb-a0bf-74bc05734871)
 
+![image](https://github.com/user-attachments/assets/6109597a-23da-4707-92dc-effa84c65e76)
+
+
 
 
 
