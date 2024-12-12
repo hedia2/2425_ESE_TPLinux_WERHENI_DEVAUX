@@ -229,6 +229,18 @@ chargez le et vérifiez que le module fonctionne bien (sudo dmesg).
 
 ![image](https://github.com/user-attachments/assets/c6f64eb5-2c77-489e-81d4-c9df7d1878e5)
 
+Afficher les Messages du Noyau avec dmesg
+Lorsque le module est chargé, il écrit souvent des messages dans les logs du noyau. Vous pouvez les afficher avec :
+
+![image](https://github.com/user-attachments/assets/8a4ea5b1-6e1c-41dc-b059-e828c795fb75)
+
+Décharger le Module avec rmmod
+Pour retirer (décharger) le module du noyau, utilisez :
+
+![image](https://github.com/user-attachments/assets/d620097c-7f4f-47ca-a79d-da363d59a93e)
+
+
+
 
 
 
