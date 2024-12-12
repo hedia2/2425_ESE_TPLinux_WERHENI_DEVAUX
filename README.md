@@ -239,6 +239,12 @@ Pour retirer (décharger) le module du noyau, utilisez :
 
 ![image](https://github.com/user-attachments/assets/d620097c-7f4f-47ca-a79d-da363d59a93e)
 
+Vérifier les Messages du Noyau après le Déchargement
+Une fois le module déchargé, utilisez à nouveau dmesg pour vérifier les messages :
+
+![image](https://github.com/user-attachments/assets/75a754f4-3854-40bb-a0bf-74bc05734871)
+
+
 
 
 
