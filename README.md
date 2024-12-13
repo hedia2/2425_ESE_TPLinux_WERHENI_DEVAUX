@@ -248,11 +248,18 @@ Une fois le module déchargé, utilisez à nouveau dmesg pour vérifier les mess
 
 
 
+### 2.3.2 Récupéreation de la configuration actuelle du noyau
 
 
 
+- FTP pour transferer la config (filezilla)
+- which arm-linux-gnueabihf-gcc
+- export
 
+Les lignes commençant par export servent à définir des variables d'environnement qui seront utilisées par le système de compilation du noyau Linux. 
 
+Le tiret à la fin du chemin sert de préfixe pour tous les outils de la chaîne de cross-compilation. Le système ajoutera automatiquement le nom de l'outil nécessaire après ce tiret.
+(ex arm-linux-gnueabihf-gcc, arm-linux-gnueabihf-ld)
 
 
 
