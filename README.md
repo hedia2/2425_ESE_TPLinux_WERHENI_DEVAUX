@@ -246,6 +246,7 @@ Une fois le module déchargé, utilisez à nouveau dmesg pour vérifier les mess
 
 ![image](https://github.com/user-attachments/assets/6109597a-23da-4707-92dc-effa84c65e76)
 
+![image](https://github.com/user-attachments/assets/9d13a668-b578-4f70-94b0-5446ed2657ad)
 
 
 ### 2.3.2 Récupéreation de la configuration actuelle du noyau
