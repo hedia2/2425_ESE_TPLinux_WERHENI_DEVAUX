@@ -210,10 +210,14 @@ Le programme présenté est écrit en C et permet de contrôler une LED connect�
 Pour compiler des modules noyau dans la VM, Nous allons besoin des paquets suivant :
 
 1. sudo apt install linux-headers-amd64
+
+La commande sudo apt install linux-headers-amd64 installe les fichiers d'en-têtes du noyau Linux pour l'architecture 64 bits.
    
 ![image](https://github.com/user-attachments/assets/4df1b5e5-ec0c-4b2e-b96a-06b9fa5a72cd)
 
 2. sudo apt install bc
+
+La commande sudo apt install bc installe l'outil bc (Basic Calculator) sur un système Linux. C'est un outil utile pour effectuer des calculs mathématiques simples ou avancés directement dans le terminal ou dans des scripts Bash.
 
 ![image](https://github.com/user-attachments/assets/96e95ddf-ba1d-463d-83ea-978d852817f4)
 
