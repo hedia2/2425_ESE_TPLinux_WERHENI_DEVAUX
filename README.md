@@ -271,8 +271,12 @@ Le tiret à la fin du chemin sert de préfixe pour tous les outils de la chaîne
 ![image](https://github.com/user-attachments/assets/b6ccddbf-dddf-4c38-9cac-5b635e0c7a6d)
 
 ##  Device tree TP3
+compiler le fichier .dts en un fichier .dtb (lisible par le noyau) :
+dtc -O dtb -o soc_system.dtb soc_system.dts
+
 ![image](https://github.com/user-attachments/assets/7b1bfd5b-20bc-4372-808f-cef8caef9136)
 
+![image](https://github.com/user-attachments/assets/08e20e3c-ba81-44b5-ad58-6219835c0d45)
 
 ### 3.1 module accedant au LED via /dev
 
