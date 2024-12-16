@@ -192,7 +192,7 @@ Le programme présenté est écrit en C et permet de contrôler une LED connect�
  
 ![Capture d'écran 2024-12-02 171124](https://github.com/user-attachments/assets/c44d163f-cc60-45b2-90e5-c8d701c20244)
 
-
+![image](https://github.com/user-attachments/assets/3ab56c06-0db6-490d-9321-3c0cef0e789d)
 
 
 
