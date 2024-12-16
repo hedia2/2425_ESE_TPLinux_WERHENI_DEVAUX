@@ -272,7 +272,11 @@ Le tiret à la fin du chemin sert de préfixe pour tous les outils de la chaîne
 
 ![image](https://github.com/user-attachments/assets/b6ccddbf-dddf-4c38-9cac-5b635e0c7a6d)
 
-##  Device tree TP3
+##  TP3
+
+ L’objectif de ce TP est de définir son propre périphérique, et de programmer
+un module qui identifie la présence du périphérique et se configure automatiquement en sa présence. Cet automatisme s’appuye sur le Device Tree.
+
 compiler le fichier .dts en un fichier .dtb (lisible par le noyau) :
 dtc -O dtb -o soc_system.dtb soc_system.dts
 
