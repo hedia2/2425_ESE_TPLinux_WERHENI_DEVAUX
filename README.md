@@ -280,6 +280,18 @@ dtc -O dtb -o soc_system.dtb soc_system.dts
 
 ### 3.1 module accedant au LED via /dev
 
+On compile est l'on envoie les fichiers compilés sur la carte:
+```
+ensea@VM-SOC:~/TP3$ scp *.ko root@192.168.250:/root/TP_DEV/
+chenillard.ko                                                                                                                                                             100%  125KB   2.5MB/s   00:00    
+gpio-leds.ko                                                                                                                                                              100%  138KB   2.8MB/s   00:00    
+hello.ko                                                                                                                                                                  100%   90KB   2.3MB/s   00:00    
+mod_chenillard.ko                                                                                                                                                         100%  133KB   3.3MB/s   00:00    
+ensea@VM-SOC:~/TP3$ 
+```
+
+
+
 leds_probe() :
 
 
