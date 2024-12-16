@@ -218,8 +218,6 @@ Pour compiler des modules noyau dans la VM, Nous allons besoin des paquets suiva
 ![image](https://github.com/user-attachments/assets/96e95ddf-ba1d-463d-83ea-978d852817f4)
 
 
-![image](https://github.com/user-attachments/assets/fc85777a-1683-4c38-b8ec-3c58531fd692)
-
 -chargez le et vérifiez que le module fonctionne bien (sudo dmesg).
 
 ![image](https://github.com/user-attachments/assets/e9b3440b-77c3-40f6-9b9a-e3098cc2c4cb)
