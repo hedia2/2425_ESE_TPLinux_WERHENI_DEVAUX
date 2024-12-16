@@ -272,5 +272,59 @@ Le tiret à la fin du chemin sert de préfixe pour tous les outils de la chaîne
 
 ##  Device tree TP3
 
+### 3.1 module accedant au LED via /dev
+
+leds_probe() :
+
+
+Appelée quand le kernel détecte un nouveau périphérique compatible avec ce driver
+Rôle : Initialisation du périphérique
+Actions principales :
+
+Récupère les ressources mémoire pour les LEDs
+Alloue la structure de données pour le périphérique
+Mappe les registres en mémoire
+Initialise l'état des LEDs (toutes allumées : 0xFF)
+Enregistre le périphérique caractère dans /dev
+
+
+
+
+leds_read() :
+
+
+Appelée lors d'une opération de lecture sur le fichier caractère
+Rôle : Permet à l'utilisateur de lire l'état actuel des LEDs
+Actions :
+
+Récupère la structure du périphérique
+Copie la valeur actuelle des LEDs vers l'espace utilisateur
+
+
+
+
+leds_write() :
+
+
+Appelée lors d'une opération d'écriture sur le fichier caractère
+Rôle : Permet à l'utilisateur de modifier l'état des LEDs
+Actions :
+
+Récupère la nouvelle valeur depuis l'espace utilisateur
+Met à jour le registre des LEDs avec cette nouvelle valeur
+
+
+
+
+leds_remove() :
+
+
+Appelée quand le périphérique est retiré ou quand le driver est déchargé
+Rôle : Nettoyage et libération des ressources
+Actions :
+
+Éteint toutes les LEDs (écrit 0x00)
+Désenregistre le fichier caractère
+Libère les ressources allouées
 
 
