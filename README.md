@@ -271,6 +271,8 @@ Le tiret à la fin du chemin sert de préfixe pour tous les outils de la chaîne
 ![image](https://github.com/user-attachments/assets/b6ccddbf-dddf-4c38-9cac-5b635e0c7a6d)
 
 ##  Device tree TP3
+![image](https://github.com/user-attachments/assets/7b1bfd5b-20bc-4372-808f-cef8caef9136)
+
 
 ### 3.1 module accedant au LED via /dev
 
