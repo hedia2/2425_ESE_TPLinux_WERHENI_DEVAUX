@@ -141,21 +141,11 @@ Nous allons vérifier le fichier de configuration SSH situé à /etc/ssh/sshd_co
 ## 1.4 Découverte de la cible
 ## 1.4.1 Exploration des dossiers /sys/class et /proc
 
-Explorez un peu votre environnement, par exemple :
+-/proc/cpuinfo : Donne des informations sur les processeurs (CPU).
 
-— Répertoires présent sous la racine
+-/proc/ioports : Liste les ports d'entrée/sortie utilisés par les périphériques matériels.
 
-— Dans /proc : cpuinfo, ioports, iomem. Utilisez les commandes cat, less ou more pour voir le contenu des fichiers.
-
-— Le répertoire /sys/class contient des entrées nouvelles (par raport à un PC classique), saurez vous les reconnaître ? En particulier, explorez les répertoires suivants :
-
-— /sys/class/leds/fpga_ledX/
-
-— /proc/ioport
-
-— /proc/iomem
-
-— /proc/device-tree/sopc@0 à comparer avec le fichier iomem.
+-/proc/iomem : Affiche les plages de mémoire physique allouées aux périphériques et au système.
 
 ## 1.4.2 Compilation croisée
 
