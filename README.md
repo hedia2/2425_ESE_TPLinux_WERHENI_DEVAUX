@@ -1,4 +1,4 @@
-q# 2425_ESE_TPLinux_WERHENI_DEVAUX
+# 2425_ESE_TPLinux_WERHENI_DEVAUX
 
 ## TP Linux Embarqué
  ## 1.1 Préparation de la carte SD
