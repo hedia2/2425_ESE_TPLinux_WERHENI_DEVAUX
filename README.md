@@ -1,4 +1,4 @@
-# 2425_ESE_TPLinux_WERHENI_DEVAUX
+q# 2425_ESE_TPLinux_WERHENI_DEVAUX
 
 ## TP Linux Embarqué
  ## 1.1 Préparation de la carte SD
@@ -262,10 +262,9 @@ Les lignes commençant par export servent à définir des variables d'environnem
 Le tiret à la fin du chemin sert de préfixe pour tous les outils de la chaîne de cross-compilation. Le système ajoutera automatiquement le nom de l'outil nécessaire après ce tiret.
 (ex arm-linux-gnueabihf-gcc, arm-linux-gnueabihf-ld)
 
-
-
 ![image](https://github.com/user-attachments/assets/ba273523-d197-47a6-a6b6-f2d97ebc25fb)
 
+## 2.3.4 Chenillard (Yes !)
 
 
 ![image](https://github.com/user-attachments/assets/b6ccddbf-dddf-4c38-9cac-5b635e0c7a6d)
