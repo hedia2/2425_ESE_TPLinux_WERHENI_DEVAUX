@@ -200,6 +200,9 @@ Le programme présenté est écrit en C et permet de contrôler une LED connect�
 
 ## 2.1 Accès aux registres
 
+Nous allons utilisera la fonction mmap() en plus Le registre du GPIO connecté aux LED est disponible à l’adresse suivante :— 0xFF203000
+Cette méthode permet de prototyper rapidement, mais pose quelques problèmes et limites.
+
 ## 2.2 Compilation de module noyau sur la VM
 
 Pour compiler des modules noyau dans la VM, Nous allons besoin des paquets suivant :
