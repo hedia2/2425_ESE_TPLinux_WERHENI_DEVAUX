@@ -187,6 +187,9 @@ Le programme présenté est écrit en C et permet de contrôler une LED connect�
 ![image](https://github.com/user-attachments/assets/57396499-0e08-45dc-9b78-4a1d9ebf95d5)
 
 ## Test 
+
+ Le programme est exécuté, et nous allons observer que les LED s'allument.
+ 
 ![Capture d'écran 2024-12-02 171124](https://github.com/user-attachments/assets/c44d163f-cc60-45b2-90e5-c8d701c20244)
 
 
