@@ -224,9 +224,11 @@ chargez le et vérifiez que le module fonctionne bien (sudo dmesg).
 
 ![image](https://github.com/user-attachments/assets/e9b3440b-77c3-40f6-9b9a-e3098cc2c4cb)
 
-
+Cette commande récupère des informations sur le module du noyau hello.ko. La sortie fournit des détails tels que le nom du fichier, la description, l'auteur (Christophe Baères), la licence (GPL) et d'autres métadonnées.
 
 ![image](https://github.com/user-attachments/assets/d34bb478-156e-4d5a-a8f8-2fa023511045)
+
+
 
 ![image](https://github.com/user-attachments/assets/c6f64eb5-2c77-489e-81d4-c9df7d1878e5)
 
